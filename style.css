@@ -1,0 +1,35 @@
+html {
+    background-color: black;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#display {
+    width: 87%; 
+    background: white;
+    box-sizing: border-box;
+    height:100vh;
+    padding:1%;
+    overflow:hidden;
+}
+
+#darkmode {
+    transition-duration: 0.3s;
+    position: fixed;
+    top:-200px;
+    right:8%;
+}
+
+#darkmode:hover {
+    transition-duration: 0.6s;
+    top:-190px;
+}
+
+#title {
+    width:min-content;
+    transform:rotate(-3deg);
+}
