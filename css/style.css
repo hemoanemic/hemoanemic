@@ -92,11 +92,8 @@ a {
     transition-duration: 0.3s;
     position: absolute;
     top:-220px;
-    right: calc(1vw + 30px);
+    right: calc(1vw + 30px);}
     #darkmode:hover {
     transition-duration: 0.6s;
-    top:-210px;
-}
-
-}
+    top:-210px;}
 }
