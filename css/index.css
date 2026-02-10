@@ -1,0 +1,8 @@
+@import url("style.css");
+
+
+#title {
+    width:min-content;
+    transform:rotate(-3deg);
+}
+

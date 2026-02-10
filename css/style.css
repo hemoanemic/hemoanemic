@@ -1,0 +1,59 @@
+html {
+    background-color: black;
+}
+
+:root {font-size:16px;} 
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#display {
+    width: 70vw; 
+    background: var(--background);
+    box-sizing: border-box;
+    height:100vh;
+    padding:5vh 5vw;
+    overflow:scroll;
+    color: var(--color);
+}
+@media (max-width: 800px) {
+    #display{
+    width: 100vw; 
+    background: var(--background);
+    box-sizing: border-box;
+    height:100vh;
+    padding:5vh 5vw;
+    overflow:scroll;
+    color: var(--color);
+    }
+}
+
+a {
+    color:var(--link);
+}
+
+#LIGHT {
+    --background: #fff;
+    --color: black;
+    --link: blue;
+}
+#DARK {
+    --background: #000;
+    --color:white;
+    --link:red;
+}
+
+#darkmode {
+    transition-duration: 0.3s;
+    position: absolute;
+    top:-200px;
+    right: calc(20vw);
+}
+
+#darkmode:hover {
+    transition-duration: 0.6s;
+    top:-190px;
+}
